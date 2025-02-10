@@ -80,6 +80,7 @@ AddBudget.addEventListener('click', () => {
 ClearBudget.addEventListener('click', () => {
     clearLocalStorage();
     BudgetList.innerHTML = '';
+    DisplayRemainingBudget();
 });
 
 // Function to Display All Budgets
