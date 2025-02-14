@@ -1,7 +1,7 @@
 import { saveTotalBudget, getTotalBudget, clearTotalBudget, saveCurrentBudgetToLocal, getFromLocalStorage, clearLocalStorage, removeBudgetFromLocalStorage } from './local-storage.js';
 // layout of local storage
 // example of local storage: { id: 1, amount: 500, category: "Food" }
-// adding a budget: saveCurrentBudgetToLocal({ id: 2, amount: 1000, category: "Rent" });
+// add  ing a budget: saveCurrentBudgetToLocal({ id: 2, amount: 1000, category: "Rent" });
 // retrieving all budgets: let budgets = getFromLocalStorage();console.log(budgets); // Returns an array of objects
 // example of getting a specific budget: let budget = budgets.find(item => item.id === 2);console.log(budget); //ID 2
 // removing a budget: removeBudgetFromLocalStorage(2); // Removes budget with ID 2
